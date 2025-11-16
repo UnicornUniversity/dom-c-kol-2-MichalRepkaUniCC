@@ -18,7 +18,7 @@ Zadání úkolu je [zde](https://uuapp.plus4u.net/uu-managementkit-maing02/38744
 **Jak postupovat v úkolu:**
 
 1) Editujete hlavně soubor main.js.
-2) Zde zvolte a upravte permittedInputSystems() a permittedOutputSystems() - výběr říká z jaké a do jaké soustavy se konveruje. Stačí v obou zvolit jen jedno číslo.
+2) Zde zvolte a upravte permittedInputSystems(10) a permittedOutputSystems(2) - výběr říká z jaké a do jaké soustavy se konveruje. Stačí v obou zvolit jen jedno číslo.
 3) Samotnou koverzi číselných soustav implementujete ve funkci main(inputNumber, inputNumberSystem, outputNumberSystem).
 4) Pokud chcete, můžete importovat funkce z jiných souborů (naznačeno na druhém řádku). Použijte pro to složku src.
 5) Kód je automaticky otestován po každé operaci Push. Pokud chcete, můžete si spustit testování lokálně - je třeba pro to nainstalovat NPM. Následně v příkazovém řádku ve složce projektu nainstalujete moduly přes "npm install" a spustíte testování přes "npm test".
